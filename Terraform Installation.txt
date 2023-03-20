@@ -1,3 +1,18 @@
+in windows:
+
+download AMD_64 for windows 64bit download it manually and set the path  ------https://developer.hashicorp.com/terraform/downloads
+
+Zip will download 
+extract the .exe file and copy the file in C: created folder \terraform -- C:\terraform
+
+set the path in CMD ---- $ set PATH=%PATH%;C:\terraform
+OR 
+manually add path in USER ENVIROMENT VARIABLE ---- C:\terraform
+
+REFRESH THE ENVIRONMENT from CMD or POWERSHELL  ------ $ refreshenv 
+
+
+
 in ubuntu/debian
 #
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
@@ -23,3 +38,6 @@ sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashi
 
 #Install Terraform from the new repository.
 sudo yum -y install terraform
+
+
+
